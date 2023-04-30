@@ -1,3 +1,4 @@
+# QoS-aware Congestion Control Protocol (QSCCP) for ICN
 ## Compile and Run
 
 1. Prerequisites：
@@ -13,7 +14,7 @@
 
    ```bash
    git clone https://github.com/Enidsky/qsccp.git
-   cd dsccp
+   cd qsccp
    git submodule update --init --recursive
    ```
 
@@ -21,7 +22,7 @@
     - **debug mode (slow but have log)**
       
       ```bash
-      cd ns3
+      cd ns-3
       
       # arm64 Linux => ./waf configure -d debug --boost-libs=/usr/lib/aarch64-linux-gnu
       ./waf configure -d debug
@@ -33,7 +34,7 @@
     - **optimized mode (fast but have no log)**
       
       ```bash
-      cd ns3
+      cd ns-3
       
       # arm64 Linux => ./waf configure -d optimized --boost-libs=/usr/lib/aarch64-linux-gnu
       ./waf configure -d optimized
@@ -80,7 +81,7 @@
      # ./waf --run=test --vis
      ```
 
-   - **optimized mode (slow but have log)**
+   - **optimized mode (fast but does not contain logs)**
 
      ```bash
      cd ../scenario
@@ -89,3 +90,9 @@
      
      # ./waf --run=test --vis
      ```
+
+## Comparison Schemes
+
+- [Enidsky/omccrf (github.com)](https://github.com/Enidsky/omccrf)
+- [Enidsky/pcon (github.com)](https://github.com/Enidsky/pcon)
+- [Enidsky/mircc (github.com)](https://github.com/Enidsky/mircc)

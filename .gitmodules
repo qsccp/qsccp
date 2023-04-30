@@ -1,0 +1,3 @@
+[submodule "pybindgen"]
+	path = pybindgen
+	url = https://github.com/named-data-ndnSIM/pybindgen.git
