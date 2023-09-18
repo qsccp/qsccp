@@ -91,7 +91,7 @@
      # ./waf --run=test --vis
      ```
 
-## Comparison Schemes
+## Benchmarks  
 
 - [Enidsky/omccrf (github.com)](https://github.com/Enidsky/omccrf)
 - [Enidsky/pcon (github.com)](https://github.com/Enidsky/pcon)
